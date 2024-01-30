@@ -1,1 +1,500 @@
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.btn{
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FF5400;
+    padding:18px 24px;
+    border:none;
+    outline:none;
+    margin-bottom: 40px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+/* start button-1 */
+.btn-1:after{
+   width: 0; 
+   height:100%;
+   content: "";
+   background: #00fffb;
+   z-index: -1;
+   display: inline-block;
+   position: absolute;
+   top:0;
+   left:0;
+   transition: 0.4s;
+}
+.btn-1:hover::after{
+    width:100%;
+}
+
+/* button-1 end*/
+/* start button 2 */
+.btn-2:after{
+    width: 0; 
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-2:hover::after{
+     width:100%;
+ }
+ /* end button 2 */
+
+ /* start button 3 */
+.btn-3:after{
+    width:100%; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-3:hover::after{
+     height:100%;
+ }
+ /* end button 3 */
+
+  /* start button 4 */
+.btn-4:after{
+    width:100%; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-4:hover::after{
+     height:100%;
+ }
+ /* end button 4 */
+   /* start button 5 */
+.btn-5:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-5:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 5 */
+    /* start button 6 */
+.btn-6:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-6:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 6 */
+    /* start button 7 */
+.btn-7:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-7:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 7 */
+/* start button 8 */
+.btn-8:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-8:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 8 */
+ /* start button 9 */
+.btn-9:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-9:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ .btn-9::before{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    transition: 0.4s;
+ }
+ .btn-9:hover::before{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 9 */
+  /* start button 10 */
+.btn-10:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-10:hover::after{
+    width: 100%;
+     height:100%;
+ }
+ .btn-10::before{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-10:hover::before{
+    width: 100%;
+     height:100%;
+ }
+ /* end button 10 */
+   /* start button 11 */
+.btn-11:after{
+    width:0; 
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-11:hover::after{
+    width: 50%;
+
+ }
+ .btn-11::before{
+    width:0; 
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-11:hover::before{
+    width: 50%;
+ 
+ }
+ /* end button 11 */
+    /* start button 12 */
+.btn-12:after{
+    width:100%; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-12:hover::after{
+    height: 50%;
+
+ }
+ .btn-12::before{
+    width:100%; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-12:hover::before{
+    height: 50%;
+ 
+ }
+ /* end button 12 */
+
+     /* start button 12 */
+.btn-12:after{
+    width:100%; 
+    height:50%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-12:hover::after{
+    width:100%;
+    height: 0;
+
+ }
+ .btn-12::before{
+    width:100%;
+    height:50%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-12:hover::before{
+    
+    height:0;
+ 
+ }
+ /* end button 12 */
+
+/* start button 13 */
+.btn-13:after{
+    width: 50%; 
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-13:hover::after{
+    width:0;
+ }
+ .btn-13::before{
+    width:50%;
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-13:hover::before{
+    
+    width:0;
+ 
+ }
+ /* end button 13 */
+ /* start button 14 */
+.btn-14:after{
+    width:0; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+ }
+ .btn-14:hover::after{
+    width:100%;
+    height: 100%;
+ }
+
+ /* end button 14 */
+  /* start button 15 */
+.btn-15:after{
+    width:100%; 
+    height:100%;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+ }
+ .btn-15:hover::after{
+    width:0;
+    height: 0;
+ }
+
+ /* end button 15 */
+   /* start button 16 */
+.btn-16{
+    transition: 0.4s;
+    
+}
+ .btn-16:hover{
+    background: white;
+    color:#FF5400;
+    border:1px solid #FF5400;
+    
+ }
+
+ /* end button 16 */
+       /* start button 17 */
+.btn-17:after{
+    width:100%; 
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.4s;
+ }
+ .btn-17:hover::after{
+
+    height: 50%;
+
+ }
+ .btn-17::before{
+    width:100%;
+    height:0;
+    content: "";
+    background: #00fffb;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transition: 0.4s;
+ }
+ .btn-17:hover::before{
+    
+    height:50%;
+ 
+ }
+ /* end button 17 */
+
+
+
+        /* start button 18 */
+.btn-18{
+    text-transform: uppercase;
+    border:1px solid #FF5400;
+    color:#FF5400;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding:18px 24px;
+ }
+ .btn-18:hover{
+    background: #FF5400;
+    color:#FFF;
+    border:none;
+
+ }
+ /* start button 19 */
+ .btn-19{
+    transition: 0.4s;
+ }
+ .btn-19:hover{
+    letter-spacing: 1px;
+ }
+
+  /* start button 20 */
+  .btn-20{
+    padding: 10px 20px;
+    transition: 0.4s;
+ }
+ .btn-20:hover{
+    background: #3dd2f7;
+ }
